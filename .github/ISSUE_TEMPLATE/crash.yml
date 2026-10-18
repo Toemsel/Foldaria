@@ -1,0 +1,41 @@
+# The issue form Foldaria opens after a crash. Foldaria fills every field through the address; the report is scrubbed
+# (no file names, paths, user or PC names), so the reporter only presses "Create".
+name: Crash report
+description: Foldaria closed unexpectedly. Foldaria fills this in for you.
+title: "Crash: "
+labels: ["crash"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Foldaria filled in the report below. It holds no file names, folder paths or user names.
+        Press **Create** at the bottom to send it.
+  - type: input
+    id: foldaria
+    attributes:
+      label: Foldaria version
+      description: Filled in by Foldaria (version and build).
+    validations:
+      required: false
+  - type: input
+    id: windows
+    attributes:
+      label: Windows
+      description: Filled in by Foldaria (edition, version and build).
+    validations:
+      required: false
+  - type: textarea
+    id: report
+    attributes:
+      label: Crash report
+      description: Filled in by Foldaria. If Foldaria said the report was shortened, paste the whole report from your clipboard here instead.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: what-you-did
+    attributes:
+      label: What were you doing when it happened?
+      description: Optional. For example, the folder you opened or the button you pressed (no need to name private files).
+    validations:
+      required: false
