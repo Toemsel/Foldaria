@@ -1,3 +1,37 @@
+[![Made with Slint](https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-whitebg.png)](https://slint.dev)
+
+Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
+
+# Version 1.1.0
+
+This version adds Quick Look previews, address bar suggestions and live folder updates. It also fixes several crashes and global search problems.
+
+## New feature(s)
+- Quick Look: press F3 to preview images, PDFs, Office documents, HTML, Markdown, SVG and text
+- The address bar suggests folders and places as you type, including ones you visited before
+- Folders update on their own when other programs add, change or remove files
+- The active tab now flows smoothly into the toolbar
+- Selected files can be dragged from anywhere in their row
+- Recycled files now appear last in every search
+
+## Bugfixes and Performance
+- Global search no longer beeps while you type
+- Global search now opens on the first double Ctrl after a cold start
+- Quitting from the tray icon no longer crashes ([#1](https://github.com/Toemsel/Foldaria/issues/1))
+- Dragging a tab out of the window no longer leaves it floating
+- Network servers and shares that refuse access now ask for credentials
+- Opening a folder and going back keeps your place in the list
+- Context menus no longer close by themselves while a sub-menu is open
+- Quick Look no longer shows stale or blank areas and no longer freezes with Office documents
+- Esc closes the Settings pop-up again after changing an option
+- Long paths in address bar suggestions no longer push the place tag out of view
+- Inline copy progress bar no longer flickers at its right edge
+- "Use as default for all folders" now applies to every folder
+
+## Other
+- Windows' security hardening: Git status column removed, safer archives, bounded stored files
+- Settings now lists the licences of third-party components
+
 # Version 1.0.0
 
 The first public release of Foldaria: a fast, modern file manager for Windows with tabs, split panes and a system-wide search popup.
