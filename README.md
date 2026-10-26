@@ -2,6 +2,26 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.2.0
+
+This version lets you open archives like folders and makes working with tabs easier.
+Messages now appear as small notices in the corner, and the Microsoft Store version can replace Windows Explorer.
+
+## New feature(s)
+- Open zip, 7z, rar, tar, cab, iso, jar and more like folders, and extract them
+- Shortcuts now open their target in the same tab
+- Tabs keep a fixed width; tabs that don't fit wait in a searchable list
+- Ctrl+Shift+T reopens the tab you closed last, right where it was
+- Messages appear as notices in the corner that close by themselves, up to three at once
+- Foldaria tells you when Windows' ransomware protection blocks a change, and how to allow it
+- The Microsoft Store version can now replace Windows Explorer while Foldaria is running
+
+## Bugfixes and Performance
+- Replacing several files at once no longer leaves one "still in use"
+- Files without an "open" action, such as ISO images, now run their default action
+- A failed delete now says "could not be deleted" and gives a reason
+- "Path not found" in the address bar is now translated
+
 # Version 1.1.0
 
 This version adds Quick Look previews, address bar suggestions and live folder updates. It also fixes several crashes and global search problems.
