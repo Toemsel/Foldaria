@@ -2,6 +2,27 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.3.0
+
+A more colourful and polished release: a new theme picker, friendlier empty folders and one-click archive extraction.
+
+## New feature(s)
+- Pick themes from a grouped list with live preview, now with ten new themes
+- Extract archives with one click from the pill above the file list
+- Open the extracted folder from the finished message, here or in a new tab
+- Empty folders and searches without results now show a friendly picture
+- Hidden tabs have a clearer button
+
+## Bugfixes and Performance
+- Esc closes Settings again after using sliders, drop-downs or shortcut fields
+- An unreachable network share no longer freezes the window
+- The last item picked in global search comes first in every tab
+- Renaming a file no longer selects the whole name by mistake
+- Removed a "…" button from global search results that did nothing
+
+## Other
+- Slate and Steel themes replace Lemon and Olive
+
 # Version 1.2.0
 
 This version lets you open archives like folders and makes working with tabs easier.
