@@ -1,6 +1,6 @@
 # Foldaria Privacy Policy
 
-Effective date: 19 October 2026
+Effective date: 28 October 2026
 
 This policy explains how Foldaria, a file manager for Windows by Thomas Christof, handles your data. It applies to every
 edition of Foldaria: the Microsoft Store version and the standalone download.
@@ -21,8 +21,14 @@ under your Windows account can read it.
 - **Search index:** the names and locations of apps, files and folders on your drives, so the search popup can find
   them quickly. It is built on your PC and never leaves it.
 - **Search picks:** which results you chose in the search popup, so they rank higher next time.
+- **Folders you opened:** a list of the folders you visited, so the address bar can suggest them as you type.
 - **Crash reports:** if Foldaria closes unexpectedly, a technical report is saved in the `dump` folder and deleted
   after 30 days, or as soon as you report it.
+
+Quick Look keeps the working files of its web page previews (see below) in `%LOCALAPPDATA%\Foldaria\WebView2`.
+
+In the Microsoft Store version, Windows keeps all of this in the app's own private storage and removes it when you
+uninstall the app.
 
 When you turn on **Start with Windows** or **Replace Windows Explorer**, Foldaria writes the matching entries to your
 user's part of the Windows registry. Turning the option off removes them.
@@ -34,6 +40,27 @@ PC. File icons, context menus, the Recycle Bin, network drives and cloud folder 
 
 Other programs can add entries to Foldaria's context menu, as they do in Windows Explorer. Those entries run the other
 program's code, and that program's own privacy policy applies to them.
+
+Archives such as ZIP files are opened and extracted on your PC.
+
+## Quick Look previews
+
+Quick Look shows the content of the file you select, on your PC. Pictures, PDFs, text and archives are read by
+Foldaria and Windows. Web pages and Markdown files are shown with Microsoft Edge's WebView2 engine: scripts are turned
+off and nothing is loaded from the internet, only the files next to the page. Office and other documents are shown by
+the preview programs installed on your PC, as in Windows Explorer; those programs' own privacy policies apply to them.
+
+## Ransomware protection
+
+When Windows Security's ransomware protection ("Controlled folder access") stops Foldaria from changing a file,
+Foldaria reads Windows Security's log on your PC to tell you which folder is protected. It reads only those entries and
+sends nothing anywhere.
+
+## Replacing Windows Explorer in the Microsoft Store version
+
+When you turn on **Replace Windows Explorer** in the Microsoft Store version, Foldaria watches for new File Explorer
+windows while it runs. It reads only which folder such a window shows and which item is selected, opens that folder in
+Foldaria and closes the Explorer window.
 
 ## Network locations and cloud folders
 
@@ -66,16 +93,19 @@ Foldaria reads or changes the clipboard only when you copy, cut or paste, or whe
 
 ## Deleting your data
 
-Uninstalling Foldaria removes the program. To also remove its settings, search index and crash reports, delete the
-folder `%APPDATA%\Foldaria`.
+Uninstalling the Microsoft Store version removes the program and everything it stored. Uninstalling or deleting the
+standalone download removes only the program: to also remove its settings, search index and crash reports, delete the
+folders `%APPDATA%\Foldaria` and `%LOCALAPPDATA%\Foldaria`.
 
-## Children
+## Use by children
 
-Foldaria collects no data from anyone, including children.
+Foldaria is suitable for people of all ages, including children under 13. Foldaria collects no personal data from
+anyone, so it collects none from children either.
 
 ## Changes to this policy
 
-If Foldaria's handling of data changes, this policy will be updated and its effective date changed. Earlier versions
+This policy is checked with every new version of Foldaria. If Foldaria's handling of data changes, this policy will
+be updated and its effective date changed. Earlier versions
 remain visible in the history of the repository where this policy is published.
 
 ## Contact
