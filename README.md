@@ -2,6 +2,13 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.4.1
+
+A small update that fixes how windows are drawn on PCs with several monitors.
+
+## Bugfixes and Performance
+- Parts of a window no longer show what lies behind it on several monitors
+
 # Version 1.4.0
 
 Folders can now be shown as a list, a tree, tiles or a grid of thumbnails, and each folder remembers its view.
