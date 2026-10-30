@@ -2,6 +2,14 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.4.2
+
+A small update that brings back missing network drives and tidies the Grid view.
+
+## Bugfixes and Performance
+- Mapped network drives that are not connected yet show in the sidebar again, without using up drive letters
+- In Grid view, thumbnails no longer cover the bottom edge of the address bar at large paddings
+
 # Version 1.4.1
 
 A small update that fixes how windows are drawn on PCs with several monitors.
