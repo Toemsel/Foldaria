@@ -1,4 +1,4 @@
-pulldown-cmark 0.13.4
+pulldown-cmark 0.13.5
 Licence: MIT
 Part of Foldaria (https://github.com/Toemsel/Foldaria).
 

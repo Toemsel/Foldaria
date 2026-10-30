@@ -1,6 +1,6 @@
 # Foldaria Privacy Policy
 
-Effective date: 28 October 2026
+Effective date: 30 October 2026
 
 This policy explains how Foldaria, a file manager for Windows by Thomas Christof, handles your data. It applies to every
 edition of Foldaria: the Microsoft Store version and the standalone download.
@@ -16,8 +16,8 @@ edition of Foldaria: the Microsoft Store version and the standalone download.
 Foldaria saves the following in your Windows profile, in the folder `%APPDATA%\Foldaria`. Only you and programs running
 under your Windows account can read it.
 
-- **Settings and layout:** your preferences, theme, sidebar entries, open tabs and windows, column layouts and menu
-  customisations.
+- **Settings and layout:** your preferences, theme, sidebar entries, open tabs and windows, column layouts, the view
+  you chose for each folder, and menu customisations.
 - **Search index:** the names and locations of apps, files and folders on your drives, so the search popup can find
   them quickly. It is built on your PC and never leaves it.
 - **Search picks:** which results you chose in the search popup, so they rank higher next time.
@@ -42,6 +42,9 @@ Other programs can add entries to Foldaria's context menu, as they do in Windows
 program's code, and that program's own privacy policy applies to them.
 
 Archives such as ZIP files are opened and extracted on your PC.
+
+In the grid view, pictures and documents show Windows' own thumbnails, and a folder can show its newest files. Foldaria
+reads them on your PC, only the beginning of a text file, and stores nothing of them.
 
 ## Quick Look previews
 

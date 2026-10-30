@@ -2,6 +2,31 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.4.0
+
+Folders can now be shown as a list, a tree, tiles or a grid of thumbnails, and each folder remembers its view.
+This version also brings more icon sets, see-through windows, and many fixes.
+
+## New feature(s)
+- Four views: List, Tree, Tiles and Grid in eight sizes; switch with Ctrl+wheel or Ctrl+Shift+1…4
+- Every folder remembers its view, also after a restart
+- Tree view: unfold folders in place; filter and sub-folder search work there too
+- Grid view: folders show their newest pictures, texts and PDFs peeking out
+- Six more icon sets, chosen from a drop-down with a live preview
+- Window opacity: make every Foldaria window see-through
+- "Ask before deleting": confirm every delete, and see which items skip the Recycle Bin
+
+## Bugfixes and Performance
+- The search popup looks right at display scaling above 100 %
+- The window always opens on a visible screen, also after unplugging a monitor
+- Arrow keys work right after Win+E brings Foldaria to the front
+- Umlauts and other accented letters in zip file names show correctly
+- Reordering sidebar items by drag works reliably
+- The sidebar finds the open folder even among thousands of subfolders; "more…" lists the next ones
+- Sub-folder search shows its results sorted once done, without jumping
+- Less processor use while Foldaria sits idle
+- Fixed several crashes found while testing this version ([#2](https://github.com/Toemsel/Foldaria/issues/2), [#3](https://github.com/Toemsel/Foldaria/issues/3), [#4](https://github.com/Toemsel/Foldaria/issues/4), [#5](https://github.com/Toemsel/Foldaria/issues/5))
+
 # Version 1.3.0
 
 A more colourful and polished release: a new theme picker, friendlier empty folders and one-click archive extraction.
