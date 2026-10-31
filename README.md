@@ -2,6 +2,26 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.5.0
+
+This version adds the Recycle Bin to Foldaria and gives the window the Windows 11 look, with rounded corners and Mica.
+
+## New features
+- Recycle Bin in the sidebar: browse it, restore items, or empty it
+- Deleted items show their original location and the date they were deleted
+- Windows 11 look: rounded corners, shadow, Windows' border colour and a Mica backdrop
+- New "Row selection animation" setting: Instant, Glide or Elastic
+
+## Bugfixes and Performance
+- The filter's placeholder text now starts at the left, where typed text starts
+- Tree view: Up and Down from the search field now move to the list
+- The close button no longer shows a dark bar with the Kawaii icons
+- Copying no longer fails when another program briefly holds the clipboard
+
+## Other
+- Window opacity is removed; Mica takes its place
+- Split buttons now have two equal halves; option buttons in Settings share one width
+
 # Version 1.4.2
 
 A small update that brings back missing network drives and tidies the Grid view.
