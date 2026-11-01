@@ -1,6 +1,6 @@
 # Foldaria Privacy Policy
 
-Effective date: 30 October 2026
+Effective date: 1 November 2026
 
 This policy explains how Foldaria, a file manager for Windows by Thomas Christof, handles your data. It applies to every
 edition of Foldaria: the Microsoft Store version and the standalone download.
@@ -45,6 +45,12 @@ Archives such as ZIP files are opened and extracted on your PC.
 
 In the grid view, pictures and documents show Windows' own thumbnails, and a folder can show its newest files. Foldaria
 reads them on your PC, only the beginning of a text file, and stores nothing of them.
+
+## Files in use by other programs
+
+When a file can't be changed because another program is using it, Foldaria asks Windows which programs have it open
+and shows their names. Only if you click **Close** or **Kill** does Foldaria ask that program to close, or end it. If
+Windows needs administrator rights for that, Windows asks you first. Foldaria stores and sends nothing of this.
 
 ## Quick Look previews
 
