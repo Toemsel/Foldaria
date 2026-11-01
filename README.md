@@ -2,6 +2,27 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.6.0
+
+Deletes now show their progress like copies, and Foldaria tells you which program is holding a file. This version also fixes a number of bugs, from network copies to window buttons.
+
+## New features
+- Deletes appear as rows with a red progress bar, with Pause and Cancel
+- When a file is in use, Foldaria names the program and offers Close or Kill
+
+## Bugfixes and Performance
+- Ctrl+V pastes text into the filter field
+- Deleting a folder too large for the Recycle Bin now asks instead of silently doing nothing
+- Deleting folders that contain folder links no longer stops with "Access is denied"
+- Maximized windows with Mica show one set of window buttons, not two
+- Cloud folders and other folders each keep their own default layout
+- Text keeps its size after changing Windows' scale and then the renderer
+- Properties of a program file open its own sheet again
+- Copying within one network drive no longer freezes that drive
+- "Show folders when ready" waits up to 10 seconds for the whole folder
+- The Elastic selection follows a held arrow key row by row
+- The Recycle Bin's tab is titled "Recycle Bin"
+
 # Version 1.5.0
 
 This version adds the Recycle Bin to Foldaria and gives the window the Windows 11 look, with rounded corners and Mica.
