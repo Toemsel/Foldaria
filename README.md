@@ -2,6 +2,22 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.7.0
+
+Folders in the Grid now show what is inside them, and Foldaria is much lighter on your PC while it sits idle.
+
+## New feature
+- In the Grid, a folder shows up to four of its pictures or files on its front
+
+## Bugfixes and Performance
+- Much less CPU, memory and disk use while Foldaria sits idle
+- The search index updates gently in the background and skips temporary and cache folders
+- A copy of many files shows one progress bar for the whole copy
+- Cancelling a paused copy no longer stays stuck on "Cancelling…"
+- A window moved to another monitor keeps its share of the screen instead of shrinking
+- With OpenGL, the tab line no longer flickers and text is sharp again
+- A dragged tab's picture has its full border and the same size for every pane
+
 # Version 1.6.0
 
 Deletes now show their progress like copies, and Foldaria tells you which program is holding a file. This version also fixes a number of bugs, from network copies to window buttons.
