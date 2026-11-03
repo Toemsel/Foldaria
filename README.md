@@ -2,6 +2,14 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.7.1
+
+This version fixes two bugs with how Foldaria's window opens and closes.
+
+## Bugfixes and Performance
+- A minimized window opened again with Win+E comes back at its full size
+- Closing Foldaria with Alt+F4 or from the taskbar quits it when the tray icon is off
+
 # Version 1.7.0
 
 Folders in the Grid now show what is inside them, and Foldaria is much lighter on your PC while it sits idle.
