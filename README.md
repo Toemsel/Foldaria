@@ -2,6 +2,34 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.8.0
+
+Phones and cameras show up in Foldaria, deletes and moves can be undone, and the sidebar shows how far indexing is.
+
+## New features
+- A new Devices section shows phones and cameras; browse them, open files, copy them to your PC
+- Undo and Redo (Ctrl+Z, Ctrl+Y) for deletes, copies, moves and renames
+- The sidebar shows indexing progress for each drive and each section, with "Indexed" when done
+- Typing a path in the address bar lists all of its subfolders
+- The Transfers button is a pie that fills as files copy; the empty list explains it
+- Messages now appear in the corner of the pane they are about
+- New icon sets: Papercut, Accent, Accent Duo, Mono Line, Frosted and Gradient Line
+
+## Bugfixes and Performance
+- Properties for several selected items shows one sheet for all of them
+- Send to and other programs' menu entries act on every selected file, not just one
+- Delete works again while the search bar is open
+- Network drives no longer show as offline while they can be browsed
+- The tray icon spins while network drives are being indexed
+- Menus no longer close by themselves shortly after Foldaria starts
+- The Minimize button's icon is visible again
+- An empty drive no longer keeps the indexer busy
+- Folder previews in the Grid follow the chosen icon set
+- Tab completion in the address bar puts the cursor at the end
+- The address bar no longer suggests Windows' hidden variables after %
+- Spacing and header text in the Transfers list are fixed
+- Drive changes and indexing now react to Windows' notices, so Foldaria uses less CPU
+
 # Version 1.7.1
 
 This version fixes two bugs with how Foldaria's window opens and closes.
