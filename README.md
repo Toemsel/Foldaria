@@ -2,6 +2,29 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.9.0
+
+A sidebar that shows what you have, smoother photo browsing, and fixes for setups with several monitors.
+
+## New features
+- Sidebar sections appear when they have entries and hide when empty; choose per section
+- A new "Network" entry in the sidebar's Locations shows your network places
+- Add a network drive or network location straight from the sidebar's ⋯ menu
+- Pictures opened in the Photos app step through their folder with the arrow keys
+
+## Bugfixes and Performance
+- Moving the window between monitors with different scaling no longer changes its size
+- A window that spanned two monitors keeps its size at the next start
+- "Start with Windows" explains how to turn it on when Windows switched it off
+- The search popup shows folders with your chosen icon set
+- Clearing the transfers list keeps the popup open
+- Separator lines in light themes are no longer too dark
+- The finished transfer button's tick sits centred in its circle
+
+## Other
+- Quick Look no longer shows previous/next buttons; the arrow keys still step through files
+- Notifications sit a little further from the window's edge
+
 # Version 1.8.0
 
 Phones and cameras show up in Foldaria, deletes and moves can be undone, and the sidebar shows how far indexing is.
