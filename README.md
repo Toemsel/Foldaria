@@ -16,13 +16,8 @@ also faster to catch up and steadier.
 ## Bugfixes and Performance
 - The Network icon is now clearly visible in both light and dark themes
 - Typing % or ~ alone in the address bar now lists every match, not only ten
-- Typing `\\wsl` and pressing Enter opens the selected distribution
 - Starting with a saved search index uses much less memory for a moment
-- Switching a drive's indexing off and on now updates its status correctly and starts at once
 - A network drive's first indexing now shows real progress instead of staying at 0 %
-- A network drive switched on no longer switches itself off again
-- Cloud folders show their indexing result dot again
-- Closing Foldaria no longer leaves its process running in the background
 
 # Version 1.9.0
 
