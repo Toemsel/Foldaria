@@ -2,6 +2,28 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.10.0
+
+This version adds your Linux distributions to the sidebar and a new Search & Indexing page in Settings. Indexing is
+also faster to catch up and steadier.
+
+## New features
+- New WSL section in the sidebar lists every installed Linux distribution, opened with one click
+- Folders that Windows reports no changes for show a "No live updates" pill that reloads them
+- Settings has a Search & Indexing page: every local and network drive with its status and switch
+- After a start or a burst of changes, the index catches up quickly instead of rescanning a whole drive
+
+## Bugfixes and Performance
+- The Network icon is now clearly visible in both light and dark themes
+- Typing % or ~ alone in the address bar now lists every match, not only ten
+- Typing `\\wsl` and pressing Enter opens the selected distribution
+- Starting with a saved search index uses much less memory for a moment
+- Switching a drive's indexing off and on now updates its status correctly and starts at once
+- A network drive's first indexing now shows real progress instead of staying at 0 %
+- A network drive switched on no longer switches itself off again
+- Cloud folders show their indexing result dot again
+- Closing Foldaria no longer leaves its process running in the background
+
 # Version 1.9.0
 
 A sidebar that shows what you have, smoother photo browsing, and fixes for setups with several monitors.
