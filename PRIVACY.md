@@ -1,6 +1,6 @@
 # Foldaria Privacy Policy
 
-Effective date: 5 November 2026
+Effective date: 8 November 2026
 
 This policy explains how Foldaria, a file manager for Windows by Thomas Christof, handles your data. It applies to every
 edition of Foldaria: the Microsoft Store version and the standalone download.
@@ -19,7 +19,9 @@ under your Windows account can read it.
 - **Settings and layout:** your preferences, theme, sidebar entries, open tabs and windows, column layouts, the view
   you chose for each folder, and menu customisations.
 - **Search index:** the names and locations of apps, files and folders on your drives, so the search popup can find
-  them quickly. It is built on your PC and never leaves it.
+  them quickly. It is built on your PC and never leaves it. To keep it up to date, Foldaria reads the list of changes
+  Windows keeps for each drive (only which files and folders changed, not their content). Under Settings → Search &
+  Indexing you choose which drives are indexed; switching a drive off deletes its part of the index at once.
 - **Search picks:** which results you chose in the search popup, so they rank higher next time.
 - **Folders you opened:** a list of the folders you visited, so the address bar can suggest them as you type.
 - **Crash reports:** if Foldaria closes unexpectedly, a technical report is saved in the `dump` folder and deleted
@@ -84,6 +86,12 @@ Foldaria and closes the Explorer window.
 Foldaria shows network shares and cloud folders (for example OneDrive) through Windows. When a network location needs a
 password, Windows asks for it in its own dialog. Foldaria never sees or stores your passwords. Storage figures for cloud
 folders come from the provider's app installed on your PC.
+
+## Linux distributions (WSL)
+
+If Windows Subsystem for Linux is installed, Foldaria reads the list of your Linux distributions from the Windows
+registry to show them in the sidebar. It opens a distribution's files only when you click it, through Windows, and
+stores and sends nothing of this.
 
 ## Crash reports
 
