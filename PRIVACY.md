@@ -1,6 +1,6 @@
 # Foldaria Privacy Policy
 
-Effective date: 8 November 2026
+Effective date: 14 November 2026
 
 This policy explains how Foldaria, a file manager for Windows by Thomas Christof, handles your data. It applies to every
 edition of Foldaria: the Microsoft Store version and the standalone download.
@@ -48,6 +48,20 @@ Archives such as ZIP files are opened and extracted on your PC.
 In the grid view, pictures and documents show Windows' own thumbnails, and a folder can show its newest pictures and the
 icons of its other files. For a folder, Foldaria reads only its list of files, not their content, and stores nothing of
 them.
+
+## Pocket
+
+The Pocket is off unless you turn it on (Settings → Pocket). While it is on, it keeps a copy of what you copy in any
+app (text, links, pictures, screenshots) and a reference to the files and folders you copy or drop on it, so you can
+take them out again. Copies that a password manager marks as private are never kept. Your files and folders stay where
+they are; the Pocket only remembers where they are. What exists only in the copy or inside another app (text, links,
+pictures, screenshots, email attachments) is saved in `%LOCALAPPDATA%\Foldaria\Pocket`, and so is everything you pin.
+Everything stays on your PC.
+
+What you copy is deleted after 30 minutes (text, links, paths, colours, code) or one hour (files, folders, pictures,
+screenshots); what you drop on the Pocket after 24 hours. Using an item starts its time again. Everything that is not
+pinned is deleted when Windows restarts or you sign out. Turning the Pocket off deletes everything in it except what
+you pinned; you can open the Pocket's folder from Settings at any time.
 
 ## Phones, cameras and other devices
 
@@ -114,7 +128,8 @@ it collects, not Foldaria.
 
 ## Clipboard
 
-Foldaria reads or changes the clipboard only when you copy, cut or paste, or when you use a command such as "Copy path".
+Foldaria reads or changes the clipboard only when you copy, cut or paste, or when you use a command such as "Copy path",
+and, while the Pocket is on, at every copy, as described under "Pocket".
 
 ## Deleting your data
 
