@@ -2,6 +2,22 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.11.0
+
+This version brings the Pocket: a small notch at the top of your screen that keeps what you copy or drop on it, ready
+to drag out again. Folders handed to Foldaria can now open in a new window, and Undo covers new files and folders.
+
+## New features
+- The Pocket: a small bar at the top of the screen that keeps everything you copy or drag onto it
+- Pin items in the Pocket to keep them; everything else expires on its own
+- "Open folders in": folders opened from elsewhere can open as a tab or a new window
+- Undo and Redo now include newly created files and folders
+- About shows whether this is the Standalone or the Store version
+- The standalone version warns to turn off "Replace Windows Explorer" before uninstalling
+
+## Bugfixes and Performance
+- Copying files off an Android phone no longer fails when file extensions are hidden
+
 # Version 1.10.0
 
 This version adds your Linux distributions to the sidebar and a new Search & Indexing page in Settings. Indexing is
