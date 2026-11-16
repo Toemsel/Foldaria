@@ -1,6 +1,6 @@
 # Foldaria Privacy Policy
 
-Effective date: 14 November 2026
+Effective date: 16 November 2026
 
 This policy explains how Foldaria, a file manager for Windows by Thomas Christof, handles your data. It applies to every
 edition of Foldaria: the Microsoft Store version and the standalone download.
@@ -58,8 +58,9 @@ they are; the Pocket only remembers where they are. What exists only in the copy
 pictures, screenshots, email attachments) is saved in `%LOCALAPPDATA%\Foldaria\Pocket`, and so is everything you pin.
 Everything stays on your PC.
 
-What you copy is deleted after 30 minutes (text, links, paths, colours, code) or one hour (files, folders, pictures,
-screenshots); what you drop on the Pocket after 24 hours. Using an item starts its time again. Everything that is not
+By default, what you copy is deleted after 30 minutes (text, links, paths, colours, code) or one hour (files, folders,
+pictures, screenshots), and what you drop on the Pocket after 24 hours; you can change these times under Settings →
+Pocket. Using an item starts its time again. Everything that is not
 pinned is deleted when Windows restarts or you sign out. Turning the Pocket off deletes everything in it except what
 you pinned; you can open the Pocket's folder from Settings at any time.
 
