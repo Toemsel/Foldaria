@@ -2,6 +2,22 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.12.0
+
+This version refines the Pocket: a notch that stays out of your way, your own keep times and two new boards.
+
+## New features
+- The Pocket's notch hides until the pointer comes near (Settings: Auto-hide, on by default).
+- Choose how long copied text, copied files and dropped items stay in the Pocket.
+- New Pegboard and Honeycomb boards replace Concrete and Carbon fibre.
+- The Pocket's settings fold away under its switch while the Pocket is off.
+- A smaller notch that sits higher, with a lighter shadow, and a smaller Board picker.
+
+## Bugfixes and Performance
+- Clicks just below the Pocket's notch now reach the window underneath.
+- Pocket settings that look unavailable while the Pocket is off no longer react to clicks.
+- Store version: other programs can now open screenshots and pictures saved in the Pocket.
+
 # Version 1.11.0
 
 This version brings the Pocket: a small notch at the top of your screen that keeps what you copy or drop on it, ready
