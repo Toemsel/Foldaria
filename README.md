@@ -2,6 +2,13 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.12.1
+
+A small fix for Foldaria closing after running for a long time.
+
+## Bugfixes and Performance
+- When a graphics driver reset closes Foldaria, it now saves your work first ([#9](https://github.com/Toemsel/Foldaria/issues/9))
+
 # Version 1.12.0
 
 This version refines the Pocket: a notch that stays out of your way, your own keep times and two new boards.
