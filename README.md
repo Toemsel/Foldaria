@@ -2,6 +2,15 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.13.0
+
+The Pocket now helps with other apps' Open and Save dialogs: jump to a Foldaria tab or find a folder without leaving the dialog.
+
+## New feature(s)
+- In other apps' Open and Save dialogs, the Pocket's notch offers your Foldaria tabs and a folder search
+- In an Open dialog, the search also finds files and opens the one you pick
+- Two new shortcuts in Settings: Ctrl+T shows your tabs, Ctrl+P searches folders in a dialog
+
 # Version 1.12.1
 
 A small fix for Foldaria closing after running for a long time.
