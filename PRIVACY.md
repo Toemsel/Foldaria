@@ -1,6 +1,6 @@
 # Foldaria Privacy Policy
 
-Effective date: 16 November 2026
+Effective date: 19 November 2026
 
 This policy explains how Foldaria, a file manager for Windows by Thomas Christof, handles your data. It applies to every
 edition of Foldaria: the Microsoft Store version and the standalone download.
@@ -63,6 +63,12 @@ pictures, screenshots), and what you drop on the Pocket after 24 hours; you can 
 Pocket. Using an item starts its time again. Everything that is not
 pinned is deleted when Windows restarts or you sign out. Turning the Pocket off deletes everything in it except what
 you pinned; you can open the Pocket's folder from Settings at any time.
+
+While the Pocket is on, it also helps with other apps' Open and Save dialogs: when such a dialog is in front, the
+Pocket offers your Foldaria tabs and a folder search. For this Foldaria notices which window is in front, and in such a
+dialog it reads only what kind of dialog it is and the file name you typed (so it stays as it was). When you pick a
+folder, Foldaria types that folder's path into the dialog. It stores nothing about the dialog or the app, and nothing
+leaves your PC.
 
 ## Phones, cameras and other devices
 
