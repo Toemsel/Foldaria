@@ -1,6 +1,6 @@
 # Foldaria Privacy Policy
 
-Effective date: 19 November 2026
+Effective date: 20 November 2026
 
 This policy explains how Foldaria, a file manager for Windows by Thomas Christof, handles your data. It applies to every
 edition of Foldaria: the Microsoft Store version and the standalone download.
@@ -51,21 +51,21 @@ them.
 
 ## Pocket
 
-The Pocket is off unless you turn it on (Settings → Pocket). While it is on, it keeps a copy of what you copy in any
-app (text, links, pictures, screenshots) and a reference to the files and folders you copy or drop on it, so you can
-take them out again. Copies that a password manager marks as private are never kept. Your files and folders stay where
-they are; the Pocket only remembers where they are. What exists only in the copy or inside another app (text, links,
-pictures, screenshots, email attachments) is saved in `%LOCALAPPDATA%\Foldaria\Pocket`, and so is everything you pin.
-Everything stays on your PC.
+The Pocket is off unless you turn it on (Settings → Pocket). While it is on, it keeps what you drop on it and the
+screenshots you take. Only if you also turn on "Include clipboard" does it keep what you copy in any app (text, links,
+pictures, files and folders). Copies that a password manager marks as private are never kept. Text that looks like a
+password is kept but never shown readable. Your files and folders stay where they are; the Pocket only remembers where
+they are. What exists only in the copy or inside another app (text, links, pictures, screenshots, email attachments) is
+saved in `%LOCALAPPDATA%\Foldaria\Pocket`, and so is everything you pin. Everything stays on your PC.
 
-By default, what you copy is deleted after 30 minutes (text, links, paths, colours, code) or one hour (files, folders,
-pictures, screenshots), and what you drop on the Pocket after 24 hours; you can change these times under Settings →
-Pocket. Using an item starts its time again. Everything that is not
+By default, what you drop and your screenshots are deleted after 24 hours, and what comes in from the clipboard after
+one hour. You can change both times under Settings → Pocket. Using an item starts its time again. Everything that is not
 pinned is deleted when Windows restarts or you sign out. Turning the Pocket off deletes everything in it except what
 you pinned; you can open the Pocket's folder from Settings at any time.
 
-While the Pocket is on, it also helps with other apps' Open and Save dialogs: when such a dialog is in front, the
-Pocket offers your Foldaria tabs and a folder search. For this Foldaria notices which window is in front, and in such a
+The File dialog companion (on by default, Settings → Windows integration, also while the Pocket is off) helps with
+other apps' Open and Save dialogs: when such a dialog is in front, the notch at the top of the screen offers your
+Foldaria tabs and a folder search. For this Foldaria notices which window is in front, and in such a
 dialog it reads only what kind of dialog it is and the file name you typed (so it stays as it was). When you pick a
 folder, Foldaria types that folder's path into the dialog. It stores nothing about the dialog or the app, and nothing
 leaves your PC.
