@@ -2,6 +2,24 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.14.0
+
+This version makes the Pocket's clipboard opt-in and brings the file dialog helper to everyone, even without the Pocket. Tabs are slimmer and the focused pane is easier to spot.
+
+## New feature(s)
+- File dialog companion: your open tabs and folder search in every Open and Save dialog, on by default
+- Reuse open tabs: opening a folder that is already open brings its tab to the front
+- Pocket: copies from the clipboard come in only with the new "Include clipboard" setting
+- Pocket: text that looks like a password is shown masked
+- Pocket: two keep times, one for dropped items and one for clipboard items
+- Lower, slimmer tabs; new tab and both split buttons share one compact button group
+- With several panes, the panes that don't have focus are dimmed, so the focused one stands out
+
+## Bugfixes and Performance
+- Typing or pasting a file's path into the address bar now opens the file
+- Passwords copied from some password managers no longer show readable in the Pocket
+- The hover on the Favourites and Copy path buttons now fills the address bar's height
+
 # Version 1.13.0
 
 The Pocket now helps with other apps' Open and Save dialogs: jump to a Foldaria tab or find a folder without leaving the dialog.
