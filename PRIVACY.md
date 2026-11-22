@@ -1,6 +1,6 @@
 # Foldaria Privacy Policy
 
-Effective date: 20 November 2026
+Effective date: 22 November 2026
 
 This policy explains how Foldaria, a file manager for Windows by Thomas Christof, handles your data. It applies to every
 edition of Foldaria: the Microsoft Store version and the standalone download.
@@ -34,6 +34,10 @@ uninstall the app.
 
 When you turn on **Start with Windows** or **Replace Windows Explorer**, Foldaria writes the matching entries to your
 user's part of the Windows registry. Turning the option off removes them.
+
+While **Replace Windows Explorer** is on, Foldaria's windows are in Windows' own list of open folder windows, as File
+Explorer's are, so that "Show in folder" in your browser or other apps can select the file in Foldaria. As with File
+Explorer, other programs on your PC can see in this list which folder each window shows. Nothing leaves your PC.
 
 ## Your files and folders
 
