@@ -2,6 +2,15 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.14.1
+
+A small update: the Tree view works inside zip files, and dragging tabs between windows is reliable again.
+
+## Bugfixes and Performance
+- The Tree view now unfolds folders inside zip files and other archives
+- Dropping a tab onto another Foldaria window works anywhere on that window, not only its lower half
+- The Pocket's notch no longer wakes for drags passing far beside it
+
 # Version 1.14.0
 
 This version makes the Pocket's clipboard opt-in and brings the file dialog helper to everyone, even without the Pocket. Tabs are slimmer and the focused pane is easier to spot.
