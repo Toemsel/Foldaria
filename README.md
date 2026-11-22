@@ -2,6 +2,16 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.14.2
+
+This version fixes "Show in folder" from your browser, the sub-folder search inside archives and two Pocket issues.
+
+## Bugfixes and Performance
+- Sub-folder search now works inside archives, without unpacking them
+- With Replace Windows Explorer on, "Show in folder" selects the file at once, no more waiting
+- Pocket items can be pinned and unpinned while another program has them open
+- File names and paths in the Pocket are no longer hidden as passwords
+
 # Version 1.14.1
 
 A small update: the Tree view works inside zip files, and dragging tabs between windows is reliable again.
