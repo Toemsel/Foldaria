@@ -1,6 +1,6 @@
 # Foldaria Privacy Policy
 
-Effective date: 22 November 2026
+Effective date: 24 November 2026
 
 This policy explains how Foldaria, a file manager for Windows by Thomas Christof, handles your data. It applies to every
 edition of Foldaria: the Microsoft Store version and the standalone download.
@@ -24,6 +24,8 @@ under your Windows account can read it.
   Indexing you choose which drives are indexed; switching a drive off deletes its part of the index at once.
 - **Search picks:** which results you chose in the search popup, so they rank higher next time.
 - **Folders you opened:** a list of the folders you visited, so the address bar can suggest them as you type.
+- **Commands you typed:** the last 100 commands you typed after `>` in the address bar, so they can be suggested
+  again. Settings → General → "Clear history" forgets them, and the folders you opened too.
 - **Crash reports:** if Foldaria closes unexpectedly, a technical report is saved in the `dump` folder and deleted
   after 30 days, or as soon as you report it.
 
@@ -73,6 +75,12 @@ Foldaria tabs and a folder search. For this Foldaria notices which window is in 
 dialog it reads only what kind of dialog it is and the file name you typed (so it stays as it was). When you pick a
 folder, Foldaria types that folder's path into the dialog. It stores nothing about the dialog or the app, and nothing
 leaves your PC.
+
+## Commands and terminals
+
+When you type a command after `>` in the address bar, Foldaria starts it in the terminal you chose (Settings → Windows
+integration), in the folder on screen. Foldaria only looks at which terminals are installed. The command runs in that
+terminal, not in Foldaria. With Ctrl+Enter, Windows asks you for administrator rights first. Nothing is sent anywhere.
 
 ## Phones, cameras and other devices
 
