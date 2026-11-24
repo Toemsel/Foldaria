@@ -2,6 +2,23 @@
 
 Third-party licences: [licenses/](https://github.com/Toemsel/Foldaria/tree/main/licenses)
 
+# Version 1.15.0
+
+Run commands and open a terminal straight from the address bar, find anything by typing part of its path, and pictures that appear where you are looking first.
+
+## New features
+- Type > in the address bar to run a command, or open a terminal, in this folder
+- Ctrl+Enter runs it as administrator; your earlier commands are suggested again
+- Choose your default terminal in Settings; "Clear history" forgets suggestions and commands
+- Search for a path such as docs/notes in the search popup and the address bar
+- Answer the Transfers questions with the keyboard, for example Delete, then Enter
+
+## Bugfixes and Performance
+- Tiles and Grid show the pictures in view first and skip those scrolled past
+- Names with spaces are found whether you type the spaces or not
+- Ctrl+Enter on a desktop app in the search popup now opens its folder
+- Quick Backspace taps that empty the filter bar no longer go back a folder
+
 # Version 1.14.2
 
 This version fixes "Show in folder" from your browser, the sub-folder search inside archives and two Pocket issues.
